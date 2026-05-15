@@ -623,6 +623,13 @@ INSERT INTO Cliente(Nombre,Paterno,Materno,FechaNacimiento,Calle,NumeroExterior,
 INSERT INTO Cliente(Nombre,Paterno,Materno,FechaNacimiento,Calle,NumeroExterior,NumeroInterior,Colonia,Estado,MetodoPago) VALUES ('Rebeca','Snarie','Verdey','2000-06-03','Callejón de los Sapos',77,4,'Los Pinos','Chiapas','Efectivo');
 INSERT INTO Cliente(Nombre,Paterno,Materno,FechaNacimiento,Calle,NumeroExterior,NumeroInterior,Colonia,Estado,MetodoPago) VALUES ('Rafael','Josef','Dohmann','1974-08-18','Morelos',26,70,'Revolución','Querétaro','Efectivo');
 
+-- 5 registros de la tabla ClienteOnline
+INSERT INTO ClienteOnline(IdCliente,NombreUsuario,Contraseña,NumeroTarjeta,FechaVencimiento) VALUES (1,'rvahl0','yV9&,z|CKBguHh>h','4784-2313-2208-3405','60/67');
+INSERT INTO ClienteOnline(IdCliente,NombreUsuario,Contraseña,NumeroTarjeta,FechaVencimiento) VALUES (2,'baldrick1','gH1*?1LiVSwhtCI','0701-4683-5777-8390','99/65');
+INSERT INTO ClienteOnline(IdCliente,NombreUsuario,Contraseña,NumeroTarjeta,FechaVencimiento) VALUES (3,'tyankishin2','vR2*cle3','2600-3738-6121-6408','90/31');
+INSERT INTO ClienteOnline(IdCliente,NombreUsuario,Contraseña,NumeroTarjeta,FechaVencimiento) VALUES (4,'dolfert3','bR0?!cO(sp','5252-9778-5292-2859','30/45');
+INSERT INTO ClienteOnline(IdCliente,NombreUsuario,Contraseña,NumeroTarjeta,FechaVencimiento) VALUES (5,'mmcnern4','zJ3.KT2n6','8843-2882-9498-1870','30/00');
+
 -- 10 registros de la tabla MedPreparado
 INSERT INTO MedPreparado(NombreComercial,FormaFarmaceutica,Concentracion,Presentacion,ViaAdministracion,Clasificacion,TipoControl,Descripcion,Categoria) VALUES ('Nicardipine Hydrochloride','Gel','35 mg/ml','Frasco con 30 cápsulas de 250mg','Oral','Analgésico','Naturista','Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.','Antibióticos');
 INSERT INTO MedPreparado(NombreComercial,FormaFarmaceutica,Concentracion,Presentacion,ViaAdministracion,Clasificacion,TipoControl,Descripcion,Categoria) VALUES ('Advanced Hand Sanitizer','Gel','10 mg/ml','Gotas oftálmicas en frasco de 15ml','Oral','Antihistamínico','Naturista','In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.','Antieméticos');
