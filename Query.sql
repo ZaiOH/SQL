@@ -46,6 +46,16 @@ SELECT * FROM Proveedor;
 --                CONSULTAS PRACTICA 09 
 -- =================================================================
 
+-- i.Mostrar el nombre completo de todos los clientes, junto con su nombre de usuario (en dado caso que se tenga una cuenta).
+
+SELECT 
+    c.Nombre || ' ' || c.Paterno || ' ' || c.Materno AS Nombre_Completo,
+    co.NombreUsuario
+FROM 
+    Cliente c
+LEFT JOIN 
+    ClienteOnline co ON c.IdCliente = co.IdCliente;
+
 -- xi.Listar a los vendedores cuyo total de medicamentos vendidos (número de productos distintos que ofrecen) sea mayor a 3.
 
 SELECT 
